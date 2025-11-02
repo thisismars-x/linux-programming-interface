@@ -5,8 +5,7 @@
 #include<sys/socket.h>
 
 #define buffer_size 1024 // a kilobyte worth of data
-#define sock_path "/var/socket1"
-
+#define sock_path "2404:7c00:41:efc3:6438:2c54:fd4f:e5ff"
 int main() {
 
   int socketFd;
